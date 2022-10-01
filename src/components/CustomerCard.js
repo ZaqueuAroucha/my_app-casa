@@ -8,7 +8,7 @@ import {
   CardActions,
   Avatar,
   IconButton,
- } from '@material-ui/core'
+} from '@material-ui/core'
 
 import FavoriteIcon from '@material-ui/icons/Favorite'
 import ShareIcon from '@material-ui/icons/Share'

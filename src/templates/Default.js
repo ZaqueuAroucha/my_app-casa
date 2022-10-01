@@ -1,5 +1,3 @@
-import { colors } from '@material-ui/core'
-import { red } from '@material-ui/core/colors'
 import Container from '@material-ui/core/Container'
 import { makeStyles } from '@material-ui/core/styles'
 
