@@ -6,13 +6,17 @@ import {
 
 import TemplateDefault from './templates/Default'
 
+import Customers from './pages/Customers'
 import Home from './pages/Home'
 
 const App = () => {
-  return (
+  return (  
     <TemplateDefault>
       <Router>
         <Switch>
+          <Route path="/Customers">
+            <Customers />
+          </Route>  
           <Route path="/">
             <Home />
           </Route>
